@@ -1,0 +1,6 @@
+Joshua, Manager
+Anna, Manager
+Rose, Admin
+Ginny, Admin
+Greg, Manager
+Emmanuel, Manager

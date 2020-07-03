@@ -1,0 +1,10 @@
+PAYSLIP FOR JUN 2020
+===========================
+Name of Staff: Greg
+Hours Worked: 170
+
+Basic Pay: $8,500.00
+Allowance: $1,000.00
+===========================
+Total Pay: $9,500.00
+===========================

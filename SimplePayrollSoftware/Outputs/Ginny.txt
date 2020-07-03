@@ -1,0 +1,10 @@
+PAYSLIP FOR JUN 2020
+===========================
+Name of Staff: Ginny
+Hours Worked: 98
+
+Basic Pay: $2,940.00
+Overtime: $0.00
+===========================
+Total Pay: $2,940.00
+===========================

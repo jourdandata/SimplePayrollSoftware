@@ -1,0 +1,10 @@
+PAYSLIP FOR JUN 2020
+===========================
+Name of Staff: Joshua
+Hours Worked: 3
+
+Basic Pay: $150.00
+Allowance: $1,000.00
+===========================
+Total Pay: $150.00
+===========================

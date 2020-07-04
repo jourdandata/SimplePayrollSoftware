@@ -1,10 +1,10 @@
-PAYSLIP FOR JUN 2020
+PAYSLIP FOR 12 2019
 ===========================
 Name of Staff: Anna
-Hours Worked: 161
+Hours Worked: 140
 
-Basic Pay: $8,050.00
+Basic Pay: $7,000.00
 Allowance: $1,000.00
 ===========================
-Total Pay: $9,050.00
+Total Pay: $7,000.00
 ===========================

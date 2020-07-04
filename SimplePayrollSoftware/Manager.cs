@@ -21,14 +21,13 @@ namespace SimplePayrollSoftware
             Allowance = 1000;
             if (HoursWorked > 160)
                 TotalPay = BasicPay + Allowance;
-
         }
 
         public override string ToString()
         {
             return "Staff Name: " + NameOfStaff + "\nHourly Rate: " + managerHourlyRate +
                 "\nHours Worked: " + HoursWorked + "\nBasic Pay: " + BasicPay +
-                "\nAllowance: " + Allowance + "\nTotal Pay: " + TotalPay;
+                "\nAllowance: " + Allowance + "\nTotal Pay: " + TotalPay + "\n";
         }
     }
 }

@@ -28,7 +28,7 @@ namespace SimplePayrollSoftware
         {
             return "Staff Name: " + NameOfStaff + "\nHourly Rate: " + adminHourlyRate +
             "\nHours Worked: " + HoursWorked + "\nBasic Pay: " + BasicPay +
-            "\nOvertime: " + Overtime + "\nTotal Pay: " + TotalPay;
+            "\nOvertime: " + Overtime + "\nTotal Pay: " + TotalPay + "\n";
         }
     }
 }

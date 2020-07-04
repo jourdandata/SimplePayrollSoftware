@@ -8,11 +8,16 @@ namespace SimplePayrollSoftware
     {
         static void Main(string[] args)
         {
+            // Create class fields
             List<Staff> myStaff;
-            FileReader fr = new FileReader();
             int month = 0;
             int year = 0;
 
+            // FileReader reads names and positions from a text file
+            // and returns a list of Staff objects.
+            FileReader fr = new FileReader();
+
+            // Get 4 digit year from user input.
             while (year == 0)
             {
                 Console.WriteLine("\nPlease enter the year: ");
@@ -20,7 +25,7 @@ namespace SimplePayrollSoftware
                 try
                 {
                     // Code to convert the input to an integer
-                    Console.WriteLine("Enter the 4 digit year for the pay slip: ");
+                    Console.Write("Enter the 4 digit year for the pay slip: ");
                     year = Convert.ToInt32(Console.ReadLine());
                 }
                 catch (FormatException)
@@ -31,6 +36,7 @@ namespace SimplePayrollSoftware
                 }
             }
 
+            // Get 2 digit month from user input.
             while (month == 0)
             {
                 Console.WriteLine("\nPlease enter the month: ");
@@ -38,7 +44,7 @@ namespace SimplePayrollSoftware
                 try
                 {
                     // try to convert the input to an integer
-                    Console.WriteLine("Enter the two digit month: ");
+                    Console.Write("Enter the two digit month: ");
                     month = Convert.ToInt32(Console.ReadLine());
                     if (month < 1 || month > 12)
                     {
@@ -52,13 +58,17 @@ namespace SimplePayrollSoftware
                 }
             }
 
+            // Assign the returned list of Staff objects to variable myStaff
             myStaff = fr.ReadFile();
 
+            // Ask the user for the hours worked for each Staff object in myStaff
+            // Calculate the hours worked for each person
+            // Print the information for each Staff person
             for (int i = 0; i < myStaff.Count; i++)
             {
                 try
                 {
-                    Console.WriteLine("Enter the number of hours worked for {0}: ", myStaff[i].NameOfStaff);
+                    Console.Write("Enter the number of hours worked for {0}: ", myStaff[i].NameOfStaff);
                     myStaff[i].HoursWorked = Convert.ToInt32(Console.ReadLine());
                     myStaff[i].CalculatePay();
                     Console.WriteLine(myStaff[i].ToString());
@@ -70,12 +80,13 @@ namespace SimplePayrollSoftware
                 }
             }
 
+            // Create a new payslips for each person in the List for the period
+            // Create a new summary report for the period
             PaySlip ps = new PaySlip(month, year);
             ps.GeneratePaySlip(myStaff);
             ps.GenerateSummary(myStaff);
             Console.Read();
             
-
         }
     }
 }

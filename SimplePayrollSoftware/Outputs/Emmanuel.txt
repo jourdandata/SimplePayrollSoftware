@@ -1,10 +1,10 @@
-PAYSLIP FOR JUN 2020
+PAYSLIP FOR 12 2019
 ===========================
 Name of Staff: Emmanuel
-Hours Worked: 180
+Hours Worked: 200
 
-Basic Pay: $9,000.00
+Basic Pay: $10,000.00
 Allowance: $1,000.00
 ===========================
-Total Pay: $10,000.00
+Total Pay: $11,000.00
 ===========================

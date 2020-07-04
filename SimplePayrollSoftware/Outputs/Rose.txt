@@ -1,10 +1,10 @@
-PAYSLIP FOR JUN 2020
+PAYSLIP FOR 12 2019
 ===========================
 Name of Staff: Rose
-Hours Worked: 132
+Hours Worked: 120
 
-Basic Pay: $3,960.00
+Basic Pay: $3,600.00
 Overtime: $0.00
 ===========================
-Total Pay: $3,960.00
+Total Pay: $3,600.00
 ===========================
